@@ -39,7 +39,7 @@ if RENDER_EXTERNAL_HOSTNAME:
 # Application definition
 
 INSTALLED_APPS = [
-    'admin_volt.apps.AdminVoltConfig',
+#    'admin_volt.apps.AdminVoltConfig',
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 
     "home",
+    "apps.apps.AppsConfig",
 ]
 
 MIDDLEWARE = [
